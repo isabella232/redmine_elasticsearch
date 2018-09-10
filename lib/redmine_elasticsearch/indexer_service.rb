@@ -115,7 +115,7 @@ module RedmineElasticsearch
                   title:       { type: 'text' },
                   description: { type: 'text' },
                   datetime:    { type: 'date' },
-                  url:         { type: 'text', index: 'not_analyzed' }
+                  url:         { type: 'keyword' }
                 }
               }
             }
